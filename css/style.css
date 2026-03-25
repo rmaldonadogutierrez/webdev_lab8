@@ -1,0 +1,50 @@
+nav {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+aside {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+aside ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+aside ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
